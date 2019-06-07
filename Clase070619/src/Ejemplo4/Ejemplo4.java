@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author carva
+ * @author cavargas10
  */
 public class Ejemplo4 {
     public static void main(String[] args) {
@@ -49,7 +49,7 @@ public class Ejemplo4 {
         
         reporteFinal = String.format("%sREPORTE DE PREFERENCIA DE PELICULAS\n"
                 , reporteFinal);
-        
+                       
         for (int i = 0; i < tipopelis.length; i++) {
             reporteFinal = String.format("%s %s\n %s\n", reporteFinal, 
                     peliculas[i], tipopelis[i]);
