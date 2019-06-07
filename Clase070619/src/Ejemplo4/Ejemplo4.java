@@ -26,7 +26,7 @@ public class Ejemplo4 {
         int contador = 0;
 
         while (bandera == true) {
-            System.out.printf("Ingrese el valor del tipo de pelicula "
+            System.out.printf("Ingrese el NUMERO del tipo de pelicula "
                     + "('1' Comedia)('2' Terror)('3' Drama)('4' Familiar): ");
             tipoPelicula = entrada.nextInt();
 

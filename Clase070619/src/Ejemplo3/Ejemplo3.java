@@ -57,8 +57,8 @@ public class Ejemplo3 {
                     break;
 
                 default:
-                    System.out.printf("LA PALABRA COMIENZA COMO CONSONANTE "
-                            + ", NO CONTABILIZA\n");
+                    System.out.printf("LA PALABRA COMIENZA CON UNA CONSONANTE "
+                            + ", NO CONTABILIZA PARA LA SUMA DE VOCALES\n");
             }
 
             System.out.printf("Desea salir del ciclo, ingrese el número 0: ");

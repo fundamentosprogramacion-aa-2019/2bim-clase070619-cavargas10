@@ -34,6 +34,8 @@ public class Ejemplo2 {
                 numCalificaciones[3] = numCalificaciones[3] + 1;
             } else if ((calificacion >= 18.1) && (calificacion <= 20)) {
                 numCalificaciones[4] = numCalificaciones[4] + 1;
+            } else {
+                System.out.println("NOTA NO CUANTIFICABLE");
             }
 
             System.out.printf("Desea salir del ciclo, ingrese el numero '0': ");
