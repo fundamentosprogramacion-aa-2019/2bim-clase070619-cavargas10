@@ -57,11 +57,11 @@ public class Ejemplo3 {
                     break;
 
                 default:
-                    System.out.printf("LA PALABRA COMIENZA COMO CONSONANTE"
-                            + "NO CONTABILIZA\n");
+                    System.out.printf("LA PALABRA COMIENZA COMO CONSONANTE "
+                            + ", NO CONTABILIZA\n");
             }
 
-            System.out.println("Desea salir del ciclo, ingrese el número 0");
+            System.out.printf("Desea salir del ciclo, ingrese el número 0: ");
             seguir = entrada.nextInt();
 
             if (seguir == 0) {
@@ -72,7 +72,7 @@ public class Ejemplo3 {
 
         }
 
-        reporteFinal = String.format("%sREPORTE DE NOTAS\n", reporteFinal);
+        reporteFinal = String.format("\n%sREPORTE DE NOTAS\n", reporteFinal);
 
         for (int i = 0; i < contador.length; i++) {
             reporteFinal = String.format("%s VOCAL %s - NUMERO DE VECES USADA:"

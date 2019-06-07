@@ -34,7 +34,7 @@ public class Ejemplo2 {
                 numCalificaciones[3] = numCalificaciones[3] + 1;
             } else if ((calificacion >= 18.1) && (calificacion <= 20)) {
                 numCalificaciones[4] = numCalificaciones[4] + 1;
-            }           
+            }
 
             System.out.printf("Desea salir del ciclo, ingrese el numero '0': ");
             seguir = entrada.nextInt();
@@ -43,41 +43,28 @@ public class Ejemplo2 {
                 bandera = false;
             }
         }
-        
+
         reporteFinal = String.format("%sREPORTE DE NOTAS\n", reporteFinal);
-        
+
         for (int i = 0; i < numCalificaciones.length; i++) {
-                    reporteFinal = String.format("%s %s: %.2f\n", 
+            reporteFinal = String.format("%s %s: %.2f\n",
                     reporteFinal, rangos[i], numCalificaciones[i]);
         }
-        
+
         System.out.printf("%s\n", reporteFinal);
-        
+
     }
 }
 
 /**
- * Taller
- * rangos = {"0 - 10", "10.1 - 12", "12.1 - 15", "15.1 - 18", "18.1 - 20"}
- * numCalificaciones = 5
- * 
- * El usuario ingrasa notas hasta q el quiera
- * Ejemplo: 
- * 11
- * 12
- * 5
- * 7
- * 8
- * 20
- * 
- * RESULTAD QUE TIENE QUE MOSTRAR 
- * -----------------------------
- * 
- * RESUMEN DE NOTAS
- * Rango 0 - 10, numero de notas: 3
- * Rango 10.1 - 12, numero de notas: 2
- * Rango 12.1 - 15, numero de notas: 0
- * Rango 15.1 - 18, numero de notas: 0 
- * Rango 18.1 - 20, numero de notas: 1
+ * Taller rangos = {"0 - 10", "10.1 - 12", "12.1 - 15", "15.1 - 18", "18.1 -
+ * 20"} numCalificaciones = 5
+ *
+ * El usuario ingrasa notas hasta q el quiera Ejemplo: 11 12 5 7 8 20
+ *
+ * RESULTAD QUE TIENE QUE MOSTRAR -----------------------------
+ *
+ * RESUMEN DE NOTAS Rango 0 - 10, numero de notas: 3 Rango 10.1 - 12, numero de
+ * notas: 2 Rango 12.1 - 15, numero de notas: 0 Rango 15.1 - 18, numero de
+ * notas: 0 Rango 18.1 - 20, numero de notas: 1
  */
-

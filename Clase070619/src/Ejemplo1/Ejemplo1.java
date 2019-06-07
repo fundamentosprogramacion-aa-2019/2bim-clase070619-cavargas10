@@ -39,18 +39,16 @@ public class Ejemplo1 {
             suma = suma + partidos[i];
         }
         promedio = (double) suma / partidos.length;
-        System.out.printf("El promedio de partidos jugados es %.2f\n", 
+        System.out.printf("El promedio de partidos jugados es %.2f\n",
                 promedio);
 
     }
 }
 
 /**
-* ARREGLOS (Existen 2 arreglos, por defecto tiene un valor de 0)
-* Partidos  (tiene un tamaño de 7)
-* dias (tienes un tamaño de 7, porque ya declara los valores)
-* 
-* syst (dia [0], partidos [0])
-*/
-
-
+ * ARREGLOS (Existen 2 arreglos, por defecto tiene un valor de 0) Partidos
+ * (tiene un tamaño de 7) dias (tienes un tamaño de 7, porque ya declara los
+ * valores)
+ *
+ * syst (dia [0], partidos [0])
+ */
